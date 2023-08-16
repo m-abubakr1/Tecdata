@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Tecdata - About</title>
+    <title>Tecdata</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="IT Software Company Web " name="keywords" />
     <meta content="Tecdata" name="description" />
@@ -53,7 +53,7 @@
     </div>
     <!-- Spinner End -->
 
-    <!-- Navbar Start -->
+    <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
       <nav class="navbar navbar-expand-lg navbar-light px-5 py-3 py-lg-0">
         <a href="index.html" class="navbar-brand px-5">
@@ -74,10 +74,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto py-0">
-            <a href="index.html" class="nav-item nav-link">Home</a>
-            <a href="about.html" class="nav-item text-primary active nav-link"
-              >About</a
+            <a href="index.html" class="nav-item text-primary nav-link active"
+              >Home</a
             >
+            <a href="about.html" class="nav-item nav-link">About</a>
             <a href="service.html" class="nav-item nav-link">Services</a>
             <a href="contact.html" class="nav-item nav-link">Contact</a>
           </div>
@@ -88,19 +88,74 @@
       </nav>
 
       <div
-        class="container-fluid bg-primary py-5 bg-header"
-        style="margin-bottom: 90px"
+        id="header-carousel"
+        class="carousel slide carousel-fade"
+        data-bs-ride="carousel"
       >
-        <div class="row py-5">
-          <div class="col-12 pt-lg-5 mt-lg-5 text-center">
-            <h1 class="display-4 text-white animated zoomIn">About Us</h1>
-            <a href="" class="h5 text-white">Home -></a>
-            <a href="" class="h5 text-white">About</a>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="img/carousel-3-min.jpg" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                  Business Growth
+                </h5>
+                <h1 class="display-1 text-white mb-md-4 animated zoomIn">
+                  Empowering Your Digital World
+                </h1>
+                <a
+                  href="contact.html"
+                  class="btn btn-outline-light py-md-3 px-md-5 animated slideInRight"
+                  >Contact Us</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="w-100" src="img/carousel-5-min.jpg" alt="Image" />
+            <div
+              class="carousel-caption d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="p-3" style="max-width: 900px">
+                <h5 class="text-white text-uppercase mb-3 animated slideInDown">
+                  Creative & Innovative
+                </h5>
+                <h1 class="display-1 text-white mb-md-4 animated zoomIn">
+                  Want to know what we are doing?
+                </h1>
+
+                <a
+                  href="service.html"
+                  class="btn btn-outline-primary py-md-3 px-md-5 animated slideInRight"
+                  >Our Services</a
+                >
+              </div>
+            </div>
           </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </div>
-    <!-- Navbar End -->
+    <!-- Navbar & Carousel End -->
 
     <!-- Facts Start -->
     <div class="container-fluid facts py-5 pt-lg-0">
@@ -170,7 +225,7 @@
             <div class="section-title position-relative pb-3 mb-5">
               <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
               <h1 class="mb-0">
-                The Best IT Solution With 3+ Years of Experience
+                The Best IT Solution With 5+ Years of Experience
               </h1>
             </div>
             <p class="mb-4">
@@ -221,7 +276,7 @@
               <img
                 class="position-absolute w-100 h-100 rounded wow zoomIn"
                 data-wow-delay="0.4s"
-                src="img/about.jpg"
+                src="img/carousel-4-min.jpg"
                 style="object-fit: cover"
                 alt="about"
               />
@@ -282,7 +337,7 @@
               <img
                 class="position-absolute w-100 h-100 rounded wow zoomIn"
                 data-wow-delay="0.1s"
-                src="img/feature.jpg"
+                src="img/feature1-min.jpg"
                 style="object-fit: cover"
                 alt=""
               />
@@ -326,6 +381,245 @@
       </div>
     </div>
     <!-- Features Start -->
+
+    <!-- Service Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div
+          class="section-title text-center position-relative pb-3 mb-5 mx-auto"
+          style="max-width: 600px"
+        >
+          <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
+          <h1 class="mb-0">Custom IT Solutions for Your Successful Business</h1>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="service-icon">
+                <i
+                  class="fa-sharp fa-solid fa-file-contract text-white fs-3"
+                ></i>
+              </div>
+              <h4 class="mb-3">Maintenance Contract</h4>
+              <p class="m-0">
+                Say goodbye to IT downtime with our comprehensive IT AMC
+                services. Keep your systems running smoothly 24/7 with our
+                expert support
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="service-icon">
+                <i class="fa-solid fa-person-shelter text-white fs-3"></i>
+              </div>
+              <h4 class="mb-3">CCTV Solutions</h4>
+              <p class="m-0">
+                Protect your business with CCTV solutions. Monitor your premises
+                24/7 and keep your assets safe with our advanced surveillance
+                technology.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="service-icon">
+                <i class="fa-solid fa-ranking-star text-white fs-3"></i>
+              </div>
+              <h4 class="mb-3">Marketing Services</h4>
+              <p class="m-0">
+                Helping you create and execute your social media marketing
+                strategy. Using a variety of tools and resources to help you
+                optimize your social media presence.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="service-icon">
+                <i class="fa-solid fa-code text-white fs-3"></i>
+              </div>
+              <h4 class="mb-3">Web Development</h4>
+              <p class="m-0">
+                Creating stunning websites for your business. We use the latest
+                technologies and best practices to ensure your website is fast,
+                secure, and user-friendly.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="service-icon">
+                <i class="fa-solid fa-circle-info text-white fs-3"></i>
+              </div>
+              <h4 class="mb-3">Access Control Solutions</h4>
+              <p class="m-0">
+                Secure your business with Access Control solutions. Control who
+                has access to your premises and protect your assets.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.2s">
+            <div
+              class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center"
+            >
+              <div class="service-icon">
+                <i class="fa-solid fa-laptop-medical text-white fs-3"></i>
+              </div>
+              <h3 class="mb-3">IT Health Check</h3>
+              <p class="mb-3">
+                Our IT health check service will proactively assess your systems
+                and keep your technology healthy and your business running
+                smoothly.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container py-5">
+        <div
+          class="section-title text-center position-relative pb-3 mb-4 mx-auto"
+          style="max-width: 600px"
+        >
+          <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
+          <h1 class="mb-0">What Our Clients Say About Our Digital Services</h1>
+        </div>
+        <div
+          class="owl-carousel testimonial-carousel wow fadeInUp"
+          data-wow-delay="0.2s"
+        >
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <img
+                class="img-fluid rounded"
+                src="img/client1.png"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ps-4">
+                <h4 class="text-primary mb-1">H. Mudassir</h4>
+                <small class="text-uppercase">Pakistan</small>
+              </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              "Tecdata's expert team translated our vision into a captivating
+              website, and their IT solutions streamlined our processes. A
+              dependable partner for both design and technology.""
+            </div>
+          </div>
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <img
+                class="img-fluid rounded"
+                src="img/client2.png"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ps-4">
+                <h4 class="text-primary mb-1">Shubham</h4>
+                <small class="text-uppercase">India</small>
+              </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              "Tecdata's comprehensive services, from web design to digital
+              marketing, elevated our brand. Their expertise in both technology
+              and marketing is truly commendable!"
+            </div>
+          </div>
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <img
+                class="img-fluid rounded"
+                src="img/client3.png"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ps-4">
+                <h4 class="text-primary mb-1">Moris</h4>
+                <small class="text-uppercase">California</small>
+              </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              "Amazing Designs and Quality Work!"
+            </div>
+          </div>
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <img
+                class="img-fluid rounded"
+                src="img/client4.png"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ps-4">
+                <h4 class="text-primary mb-1">Hafsa</h4>
+                <small class="text-uppercase">India</small>
+              </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              "Tecdata's holistic solutions, including digital marketing
+              strategies, brought our business to the forefront. Their
+              dedication to excellence is reflected in every aspect of their
+              services."
+            </div>
+          </div>
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <img
+                class="img-fluid rounded"
+                src="img/client5.png"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ps-4">
+                <h4 class="text-primary mb-1">Harry</h4>
+                <small class="text-uppercase">United Kingdom</small>
+              </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              "Kudos to Tecdata for their seamless IT solutions and hardware
+              infrastructure services. They streamlined our operations, boosting
+              efficiency and security."
+            </div>
+          </div>
+          <div class="testimonial-item bg-light my-4">
+            <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+              <img
+                class="img-fluid rounded"
+                src="img/client6.png"
+                style="width: 60px; height: 60px"
+                alt=""
+              />
+              <div class="ps-4">
+                <h4 class="text-primary mb-1">Hassan Mujahid</h4>
+                <small class="text-uppercase">Pakistan</small>
+              </div>
+            </div>
+            <div class="pt-4 pb-5 px-5">
+              "Thrilled with Tecdata's exceptional web design, IT solutions, and
+              strategic digital marketing. A well-rounded partner that helped us
+              achieve online success!"
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Testimonial End -->
 
     <!-- Team Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -387,6 +681,33 @@
       </div>
     </div>
     <!-- Team End -->
+
+    <!-- Vendor Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container mb-5">
+        <div
+          class="text-center position-relative pb-3 mb-4 mx-auto"
+          style="max-width: 600px"
+        >
+          <h1 class="mb-0 text-primary">Our Customers</h1>
+        </div>
+        <div class="bg-white">
+          <div class="owl-carousel vendor-carousel">
+            <img src="img/2.png" alt="ekar" />
+            <img src="img/5.png" alt="Al-Madina Hypermarket" />
+            <img src="img/7.png" alt="LuLu" />
+            <img src="img/vendor2.jpeg" alt="Arabian Bakeries" />
+            <img src="img/4.png" alt="Hertz" />
+            <img src="img/vendor3.jpeg" alt="AJK Tourism and Archeology" />
+            <img src="img/6.png" alt="Nesto" />
+            <img src="img/vendor4.jpeg" alt="KPR" />
+            <img src="img/3.png" alt="noon" />
+            <img src="img/vendor5.jpeg" alt="Lahori Darbar Restr." />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vendor End -->
 
     <!-- Footer Start -->
     <div
@@ -455,7 +776,7 @@
             </div>
             <div class="d-flex mb-2">
               <i class="bi bi-envelope-open text-primary me-2"></i>
-              <p class="mb-0">m.usman.khan@tecdatait.com</p>
+              <p class="mb-0">info@tecdatait.com</p>
             </div>
             <div class="d-flex mb-2">
               <i class="bi bi-telephone text-primary me-2"></i>
