@@ -6,7 +6,7 @@ A clean, responsive landing page for **TecData**, a leading IT solutions provide
 
 ## 🚀 Live Demo
 
-Hosted on GitHub Pages: https://github.com/m-abubakr1/Tecdata.git
+Hosted on GitHub Pages: [TecData - Home Page](https://m-abubakr1.github.io/Tecdata/)
 
 ---
 
